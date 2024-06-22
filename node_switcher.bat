@@ -29,4 +29,3 @@ node -v
 
 :end
 endlocal
-pause
