@@ -8,7 +8,7 @@ This batch script allows you to temporarily switch between different Node.js ver
 
 ## Setup
 
-1. Save the batch script as `SwitchNodeVersion.bat`.
+1. Save the batch script as `node_version_switcher.bat`.
 
 2. Modify the script to set the correct path to the folder where your Node.js versions are stored:
     ```batch
@@ -16,13 +16,13 @@ This batch script allows you to temporarily switch between different Node.js ver
     ```
    Replace `C:\path\to\node\versions` with the actual path to your Node.js versions folder.
 
-3. (Optional) Add the directory containing `SwitchNodeVersion.bat` to your `PATH` environment variable for easier access:
+3. (Optional) Add the directory containing `node_version_switcher.bat` to your `PATH` environment variable for easier access:
 
     - Open the Start Menu, search for "Environment Variables," and select "Edit the system environment variables."
     - In the System Properties window, click on the "Environment Variables..." button.
     - In the Environment Variables window, find the `Path` variable in the "System variables" section and select it.
     - Click the "Edit..." button.
-    - In the Edit Environment Variable window, click "New" and add the path to the directory containing `SwitchNodeVersion.bat`.
+    - In the Edit Environment Variable window, click "New" and add the path to the directory containing `node_version_switcher.bat`.
     - Click "OK" to close all windows.
 
 ## Usage
@@ -31,11 +31,11 @@ This batch script allows you to temporarily switch between different Node.js ver
 
 2. If you added the script directory to your `PATH`, simply run the script using the `call` command:
     ```batch
-    call SwitchNodeVersion.bat
+    call node_version_switcher.bat
     ```
-   Otherwise, navigate to the directory where you saved `SwitchNodeVersion.bat` and run:
+   Otherwise, navigate to the directory where you saved `node_version_switcher.bat` and run:
     ```batch
-    call SwitchNodeVersion.bat
+    call node_version_switcher.bat
     ```
 
 3. The script will list all available Node.js versions in the specified folder.
@@ -48,7 +48,7 @@ This batch script allows you to temporarily switch between different Node.js ver
 
 You can use this script with various JavaScript environments (e.g., Angular, Vue, React) and in VSCode to target different Node.js versions:
 
-1. **Open a new Command Prompt** and use the `SwitchNodeVersion.bat` script to switch to the desired Node.js version.
+1. **Open a new Command Prompt** and use the `node_version_switcher.bat` script to switch to the desired Node.js version.
 
 2. **Launch VSCode** from the same Command Prompt session by typing:
     ```batch
