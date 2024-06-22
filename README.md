@@ -1,6 +1,6 @@
 # Node.js Version Switcher
 
-This batch script allows you to temporarily switch between different Node.js versions within your current command prompt session. It prompts the user to select a Node.js version from a specified folder and updates the `PATH` environment variable accordingly.
+This batch script allows you to temporarily switch between different Node.js versions within your current command prompt, vs code or js development session. It prompts the user to select a Node.js version from a specified folder and updates the `PATH` environment variable accordingly.
 
 ## Prerequisites
 
